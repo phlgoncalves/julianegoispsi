@@ -18,10 +18,10 @@ for (const link of links) {
 }
 
 /*Mudar o header da pagina quando der scroll*/
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
-
 function changeHeaderWhenScroll() {
+  const header = document.querySelector('#header')
+  const navHeight = header.offsetHeight
+  
   if (window.scrollY >= navHeight) {
     //SE scroll é maior que a altura do header
     header.classList.add('scroll')
@@ -66,10 +66,9 @@ scrollReveal.reveal(
   { interval: 100 }
 )
 
-/*back-to-top: botão para voltar ao top da página*/
-const backToTopButton = document.querySelector('.back-to-top')
-
+/*back-to-top*/
 function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
@@ -104,7 +103,6 @@ function activateMenuAtCurrentSection() {
 }
 
 /* When Scroll*/
-
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
   backToTop()
