@@ -292,7 +292,7 @@ nav.show div.icon-close {
   position: relative;
   right: 2.93rem;
   width: 24.93rem;
-  height: 30.75rem;
+  height: 32.75rem;
 }
 
 #home .text {
@@ -429,6 +429,7 @@ nav.show div.icon-close {
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
+  filter: blur(2px);
 }
 
 /*-----------SWIPER------------*/
