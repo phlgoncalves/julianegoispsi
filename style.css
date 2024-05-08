@@ -462,6 +462,10 @@ nav.show div.icon-close {
   margin-right: 0.625rem;
 }
 
+#contact .button {
+  margin-bottom: 1rem;
+}
+
 #contact ul.grid {
   gap: 2rem;
 }
