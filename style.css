@@ -155,7 +155,7 @@ body {
   color: var(--body-color);
 }
 
-.logo img{
+.logo img {
   padding-top: 0.5rem;
 }
 
@@ -557,13 +557,13 @@ footer .brand a img {
 }
 
 /* Cookies */
-.cookies-msg{
+.cookies-msg {
   width: 80%;
   background: var(--body-color);
   position: fixed;
   bottom: 5%;
   left: 50%;
-  transform: translate(-50%);  
+  transform: translate(-50%);
   border-radius: 15px;
 }
 
@@ -600,7 +600,7 @@ footer .brand a img {
     right: -22rem;
   }
 
-  #about .image::before{
+  #about .image::before {
     width: 60%;
     left: 20%;
   }
@@ -685,7 +685,12 @@ footer .brand a img {
 
   /* services */
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   /* contact */
@@ -789,7 +794,7 @@ footer .brand a img {
 
   /* services */
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .card {
