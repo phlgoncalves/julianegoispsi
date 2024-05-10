@@ -155,6 +155,10 @@ body {
   color: var(--body-color);
 }
 
+.logo img{
+  padding-top: 0.5rem;
+}
+
 /* -------------------------------- NAVIGATION ------------------ */
 
 nav {
